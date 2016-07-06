@@ -1,0 +1,18 @@
+alias ncdump='/usr/bin/ncdump'
+alias jupy='jupyter notebook'
+alias ncviewa='ncview -autoscale'
+alias xo='xdg-open'
+
+# Merge PDF files
+# Usage: `mergepdf input{1,2,3}.pdf output.pdf`
+alias mergepdf='function __mergepdf(){ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=${@: -1} $1; };__mergepdf'
+
+# Subset PDF files
+# Usage: `subsetpdf input.pdf N_FIRSTPAGE N_LASTPAGE output.pdf`
+function __subsetpdf() {
+    gs -dNOPAUSE -dBATCH -dFirstPage=$2 -dLastPage=$3 -sDEVICE=pdfwrite -sOutputFile=$4 -f $1;
+}
+alias subsetpdf='__subsetpdf'
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'

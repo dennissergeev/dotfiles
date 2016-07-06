@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+export PATH=$PATH:$HOME/h4h5tools/bin/
+
+# Paraview
+export PATH=$HOME/Downloads/ParaView-5.0.1-Qt4-OpenGL2-MPI-Linux-64bit/bin:$PATH
+
+export RESULTS=$HOME/UEA/ACCACIA/UM/exp_results/km2p2
+
+# added by Anaconda3 2.4.1 installer
+export PATH="$HOME/anaconda3/bin:$PATH"
+
+# A bug in Chromium can't cope with LD_LIBRARY_PATH set up.
+# One of the solutions: "env LD_LIBRARY_PATH= chromium-browser"
+#export LD_LIBRARY_PATH=/usr/local/matlab2013a/bin/glnxa64/:$LD_LIBRARY_PATH
