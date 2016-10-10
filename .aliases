@@ -2,6 +2,8 @@ alias ncdump='/usr/bin/ncdump'
 alias jupy='jupyter notebook'
 alias ncviewa='ncview -autoscale'
 alias xo='xdg-open'
+alias clear='/usr/bin/clear'
+alias ll='ls -lah'
 
 # Merge PDF files
 # Usage: `mergepdf input{1,2,3}.pdf output.pdf`
