@@ -10,7 +10,12 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;
-	source ~/.bash_profile;
+	echo "Installing powerline9k theme for zsh..."
+	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+        echo ""
+        echo "Cloning Menlo for Powerline Font. Switch it on using Shell preferences."
+	git clone https://github.com/abertsch/Menlo-for-Powerline.git ~/.fonts/
+	source ~/.zshrc;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
@@ -23,5 +28,3 @@ else
 	fi;
 fi;
 unset doIt;
-
-conda config --add channels conda-forge
