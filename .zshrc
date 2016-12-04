@@ -12,6 +12,9 @@ POWERLEVEL9K_MODE='awesome-flat'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir anaconda vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(history time ram)
 export TERM="xterm-256color"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_SHORTEN_DELIMITER=""
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
