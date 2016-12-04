@@ -1,4 +1,4 @@
-name: root
+name: phd
 channels:
 - conda-forge
 dependencies:
@@ -14,11 +14,11 @@ dependencies:
 - numba
 - pandas
 - python=3.5
-- seaborn
 - scipy
-- xray
+- xarray
 - pip:
   - LatLon23
   - umtools
-  - git+https://github.com/dennissergeev/sattools.git
   - git+https://github.com/dennissergeev/faamtools.git
+  - git+https://github.com/dennissergeev/pyveccalc.git
+  - git+https://github.com/dennissergeev/sattools.git
