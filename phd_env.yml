@@ -1,19 +1,24 @@
 name: phd
 channels:
 - conda-forge
+- damianavila82
 dependencies:
 - basemap
 - cartopy
+- flake8
 - gdal
 - h5py
 - ipython
 - iris
 - jupyter
+- jupyter_nbextensions_configurator
+- jupyterlab
 - matplotlib
 - numpy
 - numba
 - pandas
 - python=3.5
+- rise
 - scipy
 - xarray
 - pip:
