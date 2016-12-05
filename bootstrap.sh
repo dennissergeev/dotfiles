@@ -10,12 +10,19 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;
-	echo "Installing powerline9k theme for zsh..."
-	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-        echo ""
-        echo "Cloning Menlo for Powerline Font. Switch it on using Shell preferences."
-	git clone https://github.com/abertsch/Menlo-for-Powerline.git ~/.fonts/
+	echo "Installing powerline9k theme for zsh...";
+	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k;
+        echo "";
+        echo "Cloning Menlo for Powerline Font. Switch it on using Shell preferences.";
+	git clone https://github.com/abertsch/Menlo-for-Powerline.git ~/.fonts/;
 	source ~/.zshrc;
+}
+
+function install_conda() {
+	wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda3.sh;
+	bash /tmp/miniconda3.sh;
+        conda env create -f root_env.yml;
+        conda env create -f phd_env.yml;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
@@ -27,4 +34,8 @@ else
 		doIt;
 	fi;
 fi;
+if [ "$2" == "--install_conda" ]; then
+	install_conda;
+fi;
 unset doIt;
+unset install_conda;
