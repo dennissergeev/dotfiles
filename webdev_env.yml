@@ -1,0 +1,15 @@
+name: webdev
+channels:
+- conda-forge
+- damianavila82
+dependencies:
+- flake8
+- ipython
+- jupyter
+- jupyter_nbextensions_configurator
+- jupyterlab
+- markdown
+- mkdocs
+- pelican
+- python=3.5
+- rise
