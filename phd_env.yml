@@ -11,9 +11,10 @@ dependencies:
 - ipython
 - iris
 - jupyter
-- jupyter_nbextensions_configurator
 - jupyterlab
+- jupyter_nbextensions_configurator
 - matplotlib
+- nb_conda_kernels
 - numpy
 - numba
 - pandas
