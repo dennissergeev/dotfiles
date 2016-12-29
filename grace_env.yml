@@ -1,0 +1,30 @@
+name: grace
+channels:
+- conda-forge
+dependencies:
+- basemap
+- cartopy
+- cython
+- docopt
+- docutils
+- fiona
+- flake8
+- gdal
+- h5py
+- ipython
+- iris
+- jinja2
+- matplotlib
+- netCDF4
+- numpy
+- numba
+- pandas
+- python=3.5
+- path.py
+- pillow
+- pytest
+- scipy
+- sphinx
+- xarray
+- pip:
+  - git+https://github.com/dennissergeev/dypy.git
