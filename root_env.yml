@@ -8,6 +8,7 @@ dependencies:
 - jupyter
 - jupyter_nbextensions_configurator
 - nb_conda_kernels
+- nbdime
 - jupyterlab
 - python=3.5
 - rise
