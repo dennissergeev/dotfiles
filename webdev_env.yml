@@ -3,6 +3,7 @@ channels:
 - conda-forge
 - damianavila82
 dependencies:
+- beautifulsoup4
 - flake8
 - ipython
 - jupyter
@@ -14,4 +15,5 @@ dependencies:
 - nbdime
 - pelican
 - python=3.5
+- requests
 - rise
