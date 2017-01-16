@@ -9,6 +9,7 @@ dependencies:
 - jupyter
 - jupyter_nbextensions_configurator
 - jupyterlab
+- lxml
 - markdown
 - mkdocs
 - nb_conda_kernels
