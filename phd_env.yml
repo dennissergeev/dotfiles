@@ -7,6 +7,7 @@ dependencies:
 - cartopy
 - flake8
 - gdal
+- gridfill
 - h5py
 - ipython
 - iris
