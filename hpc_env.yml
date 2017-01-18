@@ -1,4 +1,4 @@
-name: grace
+name: hpc
 channels:
 - conda-forge
 dependencies:
