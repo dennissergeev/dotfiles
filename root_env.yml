@@ -3,6 +3,7 @@ channels:
 - conda-forge
 - damianavila82
 dependencies:
+- cookiecutter
 - flake8
 - ipython
 - jupyter
