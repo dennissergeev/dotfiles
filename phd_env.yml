@@ -15,6 +15,7 @@ dependencies:
 - jupyterlab
 - jupyter_nbextensions_configurator
 - matplotlib
+- metpy
 - nb_conda_kernels
 - nbdime
 - numpy
