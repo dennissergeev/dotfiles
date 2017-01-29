@@ -3,6 +3,7 @@ channels:
 - conda-forge
 - damianavila82
 dependencies:
+- aospy
 - basemap
 - cartopy
 - flake8
