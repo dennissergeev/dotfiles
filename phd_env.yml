@@ -1,34 +1,26 @@
 name: phd
 channels:
 - conda-forge
-- damianavila82
 dependencies:
 - aospy
 - basemap
 - cartopy
 - flake8
 - gdal
-- gridfill
 - h5py
 - ipython
 - iris
-- jupyter
-- jupyterlab
-- jupyter_nbextensions_configurator
-- matplotlib
+- matplotlib=2
 - metpy
-- nb_conda_kernels
 - nbdime
 - numpy
 - numba
 - pandas
 - path.py
-- python=3.5
-- rise
+- python=3.6
 - scipy
 - xarray
 - pip:
-  - LatLon23
   - git+https://github.com/dennissergeev/umtools.git
   - git+https://github.com/dennissergeev/faamtools.git
   - git+https://github.com/dennissergeev/pyveccalc.git

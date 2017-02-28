@@ -1,21 +1,16 @@
-name: webdev
+name: blog
 channels:
 - conda-forge
-- damianavila82
 dependencies:
 - beautifulsoup4
 - flake8
 - feedparser
 - ipython
 - jupyter
-- jupyter_nbextensions_configurator
-- jupyterlab
 - lxml
 - markdown
 - mkdocs
-- nb_conda_kernels
 - nbdime
 - pelican
 - python=3.5
 - requests
-- rise
