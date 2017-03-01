@@ -3,6 +3,7 @@ channels:
 - conda-forge
 dependencies:
 - aospy
+- autopep8
 - basemap
 - cartopy
 - cached-property
@@ -10,6 +11,7 @@ dependencies:
 - gdal
 - h5py
 - ipython
+- ipykernel
 - iris
 - matplotlib=2
 - metpy
@@ -19,8 +21,11 @@ dependencies:
 - pandas
 - path.py
 - python=3.6
+- python-stratify
 - scipy
+- tqdm
 - xarray
+- windspharm
 - pip:
   - git+https://github.com/dennissergeev/umtools.git
   - git+https://github.com/dennissergeev/faamtools.git
