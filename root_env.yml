@@ -6,6 +6,7 @@ dependencies:
 - flake8
 - ipython
 - jupyter
+- jupyter_contrib_nbextensions
 - nb_conda_kernels
 - nbdime
 - jupyterlab

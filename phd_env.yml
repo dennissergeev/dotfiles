@@ -5,6 +5,7 @@ dependencies:
 - aospy
 - basemap
 - cartopy
+- cached-property
 - flake8
 - gdal
 - h5py
