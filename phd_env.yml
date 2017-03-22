@@ -11,6 +11,7 @@ dependencies:
 - gdal
 - h5py
 - ipython
+- ipywidgets
 - ipykernel
 - iris
 - matplotlib=2
@@ -27,6 +28,7 @@ dependencies:
 - xarray
 - windspharm
 - pip:
+  - moviepy
   - git+https://github.com/dennissergeev/umtools.git
   - git+https://github.com/dennissergeev/faamtools.git
   - git+https://github.com/dennissergeev/pyveccalc.git

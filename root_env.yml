@@ -13,3 +13,5 @@ dependencies:
 - nbdime
 - jupyterlab
 - python=3.6
+- pip:
+  - howdoi
