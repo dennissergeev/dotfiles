@@ -22,7 +22,6 @@ dependencies:
 - pandas
 - path.py
 - python=3.6
-- python-stratify
 - scipy
 - tqdm
 - xarray
