@@ -8,12 +8,14 @@ dependencies:
 - cartopy
 - cached-property
 - flake8
+- fortran-magic
 - gdal
 - h5py
 - ipython
 - ipywidgets
 - ipykernel
 - iris
+- line_profiler
 - matplotlib=2
 - metpy
 - nbdime
