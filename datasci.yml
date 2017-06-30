@@ -1,0 +1,29 @@
+name: datasci
+channels:
+- conda-forge
+dependencies:
+- autopep8
+- beautifulsoup4
+- feedparser
+- flake8
+- h5py
+- ipython
+- ipywidgets
+- ipykernel
+- lxml
+- markdown
+- matplotlib
+- nbdime
+- numpy
+- numba
+- pandas
+- path.py
+- pillow
+- python=3.6
+- requests
+- scipy
+- tqdm
+- xarray
+- pip:
+  - pdfplumber
+  - tabula-py
