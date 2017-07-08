@@ -29,6 +29,7 @@ dependencies:
 - xarray
 - windspharm
 - pip:
+  - ecmwf-api-client
   - moviepy
   - git+https://github.com/dennissergeev/umtools.git
   - git+https://github.com/dennissergeev/faamtools.git
