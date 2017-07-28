@@ -24,12 +24,15 @@ dependencies:
 - pandas
 - path.py
 - python=3.6
+- pytest
 - scipy
 - tqdm
 - xarray
 - windspharm
 - pip:
+  - ecmwf-api-client
   - moviepy
+  - daiquiri
   - git+https://github.com/dennissergeev/umtools.git
   - git+https://github.com/dennissergeev/faamtools.git
   - git+https://github.com/dennissergeev/pyveccalc.git
