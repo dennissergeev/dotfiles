@@ -33,7 +33,7 @@ dependencies:
   - ecmwf-api-client
   - moviepy
   - daiquiri
-  - git+https://github.com/dennissergeev/umtools.git
+  - git+https://github.com/dennissergeev/arke.git
   - git+https://github.com/dennissergeev/faamtools.git
   - git+https://github.com/dennissergeev/pyveccalc.git
   - git+https://github.com/dennissergeev/sattools.git
