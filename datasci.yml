@@ -4,6 +4,7 @@ channels:
 dependencies:
 - autopep8
 - beautifulsoup4
+- bibtexparser
 - feedparser
 - flake8
 - h5py
