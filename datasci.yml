@@ -2,6 +2,7 @@ name: datasci
 channels:
 - conda-forge
 dependencies:
+- arrow
 - autopep8
 - beautifulsoup4
 - bibtexparser
@@ -22,6 +23,7 @@ dependencies:
 - pillow
 - python=3.6
 - requests
+- scholarly
 - scipy
 - tqdm
 - xarray
