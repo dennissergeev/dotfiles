@@ -23,10 +23,10 @@ dependencies:
 - pillow
 - python=3.6
 - requests
-- scholarly
 - scipy
 - tqdm
 - xarray
 - pip:
+  - scholarly
   - pdfplumber
   - tabula-py
