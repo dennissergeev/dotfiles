@@ -8,6 +8,8 @@ dependencies:
 - bibtexparser
 - feedparser
 - flake8
+- folium
+- geopy
 - h5py
 - ipython
 - ipywidgets
