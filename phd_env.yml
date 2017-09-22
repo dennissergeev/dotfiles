@@ -15,6 +15,7 @@ dependencies:
 - ipywidgets
 - ipykernel
 - iris
+- lagranto
 - line_profiler
 - matplotlib=2
 - metpy

@@ -1,5 +1,6 @@
 alias ncdump='/usr/bin/ncdump'
 alias jupy='jupyter notebook'
+alias jlab='jupyter lab'
 alias ncviewa='ncview -autoscale'
 alias xo='xdg-open'
 alias clear='/usr/bin/clear'
