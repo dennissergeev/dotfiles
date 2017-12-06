@@ -11,14 +11,13 @@ dependencies:
 - fortran-magic
 - gdal
 - h5py
-- ipython
-- ipywidgets
 - ipykernel
 - iris
 - lagranto
 - line_profiler
-- matplotlib=2
+- matplotlib
 - metpy
+- moviepy
 - nbdime
 - numpy
 - numba
@@ -32,7 +31,6 @@ dependencies:
 - windspharm
 - pip:
   - ecmwf-api-client
-  - moviepy
   - daiquiri
   - git+https://github.com/dennissergeev/arke.git
   - git+https://github.com/dennissergeev/faamtools.git

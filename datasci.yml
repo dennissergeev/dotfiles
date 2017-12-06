@@ -11,8 +11,6 @@ dependencies:
 - folium
 - geopy
 - h5py
-- ipython
-- ipywidgets
 - ipykernel
 - lxml
 - markdown

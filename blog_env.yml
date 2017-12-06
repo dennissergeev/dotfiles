@@ -5,9 +5,7 @@ dependencies:
 - beautifulsoup4
 - flake8
 - feedparser
-- ipython
-- ipywidgets
-- jupyter
+- ipykernel
 - lxml
 - markdown
 - mkdocs
