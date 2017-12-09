@@ -11,5 +11,7 @@ dependencies:
 - mkdocs
 - nbdime
 - pelican
-- python=3.5
+- python=3.6
 - requests
+- pip:
+  - git+https://github.com/dennissergeev/urubu.git
