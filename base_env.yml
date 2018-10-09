@@ -1,4 +1,4 @@
-name: root
+name: base
 channels:
 - conda-forge
 dependencies:
@@ -12,6 +12,6 @@ dependencies:
 - nb_conda_kernels
 - nbdime
 - jupyterlab
-- python=3.6
+- python=3.7
 - pip:
   - howdoi
