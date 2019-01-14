@@ -9,6 +9,7 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE" \
+		--exclude *.yml \
 		-avh --no-perms . ~;
 	echo "Installing powerline9k theme for zsh...";
 	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k;
@@ -21,8 +22,7 @@ function doIt() {
 function install_conda() {
 	wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda3.sh;
 	bash /tmp/miniconda3.sh;
-        conda env create -f root_env.yml;
-        conda env create -f phd_env.yml;
+        conda env create -f base_env.yml;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

@@ -1,9 +1,2 @@
-#!/usr/bin/env bash
-
-export PATH=$PATH:$HOME/h4h5tools/bin/
-
-# Paraview
-export PATH=$HOME/Downloads/ParaView-5.0.1-Qt4-OpenGL2-MPI-Linux-64bit/bin:$PATH
-
-# added by Anaconda3 2.4.1 installer
-export PATH="$HOME/miniconda3/bin:$PATH"
+export HISTIGNORE="history*:ls*:ll*:exit:echo*:ipython:qq*"
+export HISTCONTROL=ignorespace

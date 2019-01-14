@@ -1,33 +1,30 @@
-name: hpc
+name: exo
 channels:
 - conda-forge
 dependencies:
-- basemap
+- astropy
 - cached-property
 - cartopy
 - cython
-- docopt
-- docutils
 - fiona
 - flake8
-- gdal
 - h5py
 - ipykernel
+- ipywidgets
 - iris
-- jinja2
-- matplotlib=2
+- matplotlib=3
 - metpy
+- mo_pack
 - netCDF4
 - numpy
 - numba
 - pandas
-- python=3.6
-- path.py
+- python=3.7
 - pillow
 - pytest
 - scipy
 - tqdm
-- sphinx
 - xarray
 - pip:
-  - git+https://github.com/dennissergeev/dypy.git
+  - fastprogress
+  - loguru
