@@ -110,3 +110,9 @@ colorscheme PaperColor
 
 "Markdown hl
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+" Replace highlighted with CTRL-R
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undodir
