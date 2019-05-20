@@ -4,6 +4,9 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
 
+# Vim stuff
+mkdir -p ~/.vim/undodir
+
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude "bootstrap.sh" \
