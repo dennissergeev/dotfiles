@@ -5,8 +5,6 @@
 	s = status -s
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-        pll = pull origin master
-        psh = push origin master
 [color]
 	ui = true
 [push]
