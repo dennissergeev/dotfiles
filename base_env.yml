@@ -3,15 +3,20 @@ channels:
 - conda-forge
 dependencies:
 - autopep8
+- black
 - cookiecutter
 - flake8
 - ipython
 - ipywidgets
 - jupyter
 - jupyter_contrib_nbextensions
+- jupyterlab
+- mamba
 - nb_conda_kernels
 - nbdime
-- jupyterlab
 - python=3.7
+- pip
+- rise
+- voila
 - pip:
   - howdoi

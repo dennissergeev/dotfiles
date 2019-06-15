@@ -21,10 +21,12 @@ dependencies:
 - pandas
 - python=3.7
 - pillow
+- pip
 - pytest
 - scipy
 - tqdm
 - xarray
 - pip:
   - fastprogress
+  - latlon23
   - loguru
