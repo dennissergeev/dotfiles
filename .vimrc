@@ -116,3 +116,10 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undodir
+
+" Namelist hl
+if has("autocmd")
+  au BufNewFile,BufRead *.conf set filetype=fortran
+  au BufNewFile,BufRead *.nml set filetype=fortran
+  au BufNewFile,BufRead *.namelist set filetype=fortran
+endif
