@@ -25,4 +25,4 @@ create_default_packages:
   - blas=*=openblas
 
 # faster (experimental) solver
-sat_solver: pycryptosat
+# sat_solver: pycryptosat
