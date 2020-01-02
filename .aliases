@@ -1,9 +1,5 @@
-alias ncdump='/usr/bin/ncdump'
-alias jupy='jupyter notebook'
 alias jlab='jupyter lab'
-alias ncviewa='ncview -autoscale'
 alias xo='xdg-open'
-alias clear='/usr/bin/clear'
 alias ll='ls -lah'
 
 # Merge PDF files
@@ -19,3 +15,10 @@ alias subsetpdf='__subsetpdf'
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# remote jupyterlab
+function __remote_jlab() {
+    google-chrome 'http://localhost:8890'
+    ssh -L8890:localhost:8890 -L8787:localhost:8787 $1 'echo $HOSTNAME; __conda_env && conda activate && jupyter lab --no-browser --port=8890'
+}
+alias remote_jlab='__remote_jlab'
