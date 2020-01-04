@@ -4,13 +4,14 @@ channels:
 dependencies:
 - cartopy
 - cython
+- dask
 - fiona
 - flake8
 - h5py
 - ipykernel
 - ipywidgets
-- iris
-- matplotlib=3
+- iris>=2.3
+- matplotlib
 - metpy
 - mo_pack
 - netCDF4

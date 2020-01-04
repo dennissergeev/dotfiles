@@ -25,8 +25,9 @@ function doIt() {
 function install_conda() {
 	wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda3.sh;
 	bash /tmp/miniconda3.sh;
+        source $HOME/.bashrc;
         conda env create -f base_env.yml;
-        jupyter labextension install @ryantam626/jupyterlab_code_formatter
+        jupyter labextension install @ryantam626/jupyterlab_code_formatter;
         jupyter serverextension enable --py jupyterlab_code_formatter
 }
 
