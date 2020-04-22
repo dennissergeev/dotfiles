@@ -18,7 +18,12 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # remote jupyterlab
 function __remote_jlab() {
-    google-chrome 'http://localhost:8890'
-    ssh -L8890:localhost:8890 -L8787:localhost:8787 $1 'echo $HOSTNAME; __conda_env && conda activate && jupyter lab --no-browser --port=8890'
+    local rem_host=$1
+    local port="${2:-8800}"
+    local fwd_main="-L${port}:localhost:${port}"
+    local fwd_aux="-L8787:localhost:8787"
+    local rem_cmd="echo \$HOSTNAME; __conda_env && conda activate && jupyter lab --no-browser --port="${port}
+    google-chrome "http://localhost:"$port
+    ssh $fwd_main $fwd_aux $rem_host $rem_cmd
 }
 alias remote_jlab='__remote_jlab'
