@@ -12,13 +12,10 @@ dependencies:
 - jupyter_contrib_nbextensions
 - jupyterlab_code_formatter
 - jupyterlab
-- mamba
 - nb_conda_kernels
 - nbdime
 - nodejs
-- python=3.7
+- python=3.8
 - pip
 - rise
 - voila
-- pip:
-  - howdoi

@@ -5,21 +5,20 @@ dependencies:
 - cartopy
 - cython
 - dask
-- fiona
 - flake8
 - h5py
 - ipykernel
 - ipywidgets
 - iris>=2.3
-- matplotlib
+- matplotlib>=3.0
 - metpy
 - mo_pack
+- moviepy
 - netCDF4
-- numpy
 - numba
+- numpy
 - pandas
-- python=3.7
-- pillow
+- python=3.8
 - pip
 - pytest
 - python-stratify
@@ -31,3 +30,4 @@ dependencies:
   - fastprogress
   - latlon23
   - loguru
+  - imageio_ffmpeg
