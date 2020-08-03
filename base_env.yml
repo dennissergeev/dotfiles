@@ -10,7 +10,6 @@ dependencies:
 - ipywidgets
 - jupyter
 - jupyter_contrib_nbextensions
-- jupyterlab_code_formatter
 - jupyterlab
 - nb_conda_kernels
 - nbdime
@@ -19,3 +18,6 @@ dependencies:
 - pip
 - rise
 - voila
+pip:
+  - isort
+  - jupyterlab_code_formatter
