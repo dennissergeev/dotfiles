@@ -11,6 +11,7 @@ dependencies:
 - jupyter
 - jupyter_contrib_nbextensions
 - jupyterlab
+- loguru
 - nb_conda_kernels
 - nbdime
 - nodejs
