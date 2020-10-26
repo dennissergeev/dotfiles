@@ -19,6 +19,7 @@ dependencies:
 - numba
 - numpy
 - pandas
+- panel
 - python=3.8
 - pip
 - pytest
