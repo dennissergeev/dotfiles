@@ -6,21 +6,21 @@ dependencies:
 - cython
 - dask
 - flake8
+- fastprogress
 - h5py
 - ipykernel
 - ipywidgets
 - iris>=2.4
+- latlon23
 - loguru
 - matplotlib>=3.3
 - metpy
 - mo_pack
 - moviepy
 - netCDF4
-- numba
 - numpy
 - pandas
-- panel
-- python=3.8
+- python=3.9
 - pip
 - pytest
 - python-stratify
@@ -29,6 +29,4 @@ dependencies:
 - tqdm
 - xarray
 - pip:
-  - fastprogress
-  - latlon23
   - imageio_ffmpeg

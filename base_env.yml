@@ -15,7 +15,7 @@ dependencies:
 - nb_conda_kernels
 - nbdime
 - nodejs
-- python=3.8
+- python=3.9
 - pip
 - rise
 - voila
