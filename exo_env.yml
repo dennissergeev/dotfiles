@@ -5,6 +5,7 @@ dependencies:
 - aeolus
 - cartopy>=0.18
 - cython
+- cmcrameri
 - dask
 - flake8
 - fastprogress
@@ -29,5 +30,6 @@ dependencies:
 - scipy
 - tqdm
 - xarray
+- windspharm
 - pip:
   - imageio_ffmpeg
