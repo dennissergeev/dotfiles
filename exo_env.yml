@@ -2,6 +2,7 @@ name: exo
 channels:
 - conda-forge
 dependencies:
+- aeolus
 - cartopy>=0.18
 - cython
 - dask
