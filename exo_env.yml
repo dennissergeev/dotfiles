@@ -12,11 +12,11 @@ dependencies:
 - h5py
 - ipykernel
 - ipywidgets
-- iris>=2.4
+- iris>=3.0
 - latlon23
 - loguru
 - matplotlib>=3.3
-- metpy
+- metpy>=1.0
 - mo_pack
 - moviepy
 - netCDF4
