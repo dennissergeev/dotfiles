@@ -17,7 +17,7 @@ dependencies:
 - latlon23
 - loguru
 - matplotlib>=3.4
-- metpy
+- metpy>=1.0
 - netCDF4
 - numpy
 - pandas
