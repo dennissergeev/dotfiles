@@ -1,33 +1,24 @@
-name: exo
+name: plot3d
 channels:
 - conda-forge
 dependencies:
 - aeolus
-- cartopy>=0.18
-- cython
 - cmcrameri
 - cmocean
 - dask
-- flake8
-- fastprogress
-- h5py
+- ipygany
 - ipykernel
 - ipywidgets
 - iris>=3.0
 - latlon23
 - loguru
 - matplotlib>=3.4
-- metpy
-- netCDF4
 - numpy
 - pandas
+- panel
 - python=3.9
 - pip
-- pytest
-- python-stratify
+- pyvista
 - scipy
 - tqdm
 - xarray
-- windspharm
-- pip:
-  - imageio_ffmpeg

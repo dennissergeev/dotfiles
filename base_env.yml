@@ -5,12 +5,16 @@ dependencies:
 - autopep8
 - black
 - cookiecutter
+- dask-labextension
 - flake8
 - ipython
 - ipywidgets
+- isort
 - jupyter
-- jupyter_contrib_nbextensions
 - jupyterlab
+- jupyterlab_code_formatter
+- jupyterlab-spellchecker
+- jupyterlab-system-monitor
 - loguru
 - nb_conda_kernels
 - nbdime
@@ -18,7 +22,3 @@ dependencies:
 - python=3.9
 - pip
 - rise
-- voila
-pip:
-  - isort
-  - jupyterlab_code_formatter
