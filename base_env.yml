@@ -21,4 +21,5 @@ dependencies:
 - nodejs
 - python=3.9
 - pip
+- pre-commit
 - rise
